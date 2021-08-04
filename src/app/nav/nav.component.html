@@ -1,0 +1,14 @@
+<div class="nav">
+    <h2 (click)="fetchDataAgain('Trending')">Trending</h2>
+    <h2 (click)="fetchDataAgain('Top Rated')">Top Rated</h2>
+    <h2 (click)="fetchDataAgain('Action')">Action</h2>
+    <h2 (click)="fetchDataAgain('Comedy')">Comedy</h2>
+    <h2 (click)="fetchDataAgain('Horror')">Horror</h2>
+    <h2 (click)="fetchDataAgain('Romance')">Romance</h2>
+    <h2 (click)="fetchDataAgain('Mystery')">Mystery</h2>
+    <h2 (click)="fetchDataAgain('Sci-Fi')">Sci-Fi</h2>
+    <h2 (click)="fetchDataAgain('Western')">Western</h2>
+    <h2 (click)="fetchDataAgain('Animation')">Animation</h2>
+    <h2 (click)="fetchDataAgain('Movie')">Tv</h2>
+</div>
+<app-results [movies]="movies" ></app-results>
